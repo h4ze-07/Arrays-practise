@@ -9,7 +9,7 @@ function initializeArray() {
     }
     alert('Ваш створений масив: ' + arr.join(', '));
 
-    arr.sort(function(a, b){return b - a});
+    arr.sort(function(a, b){return a - b});
     alert('Ваш відсортований за зростанням масив: ' + arr.join(', '));
 
     arr.splice(1, 3);
